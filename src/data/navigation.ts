@@ -9,29 +9,29 @@ export interface NavItem {
 
 export const mainNav: NavItem[] = [
   {
-    label: 'Products',
+    label: "Продукты",
     href: '/products/',
     children: [
-      { label: 'All Products', href: '/products/' },
+      { label: "Все продукты", href: '/products/' },
       { label: 'KeyMod Series', href: '/keymod/' },
       { label: 'KVM-GO Series', href: '/kvmgo/' },
       { label: 'Mini-KVM', href: '/minikvm/' },
       { label: 'uConsole KVM Extension', href: '/kvmext/' },
-      { label: 'Accessories', href: '/accessories/' },
+      { label: "Аксессуары", href: '/accessories/' },
     ],
   },
   {
-    label: 'Apps',
+    label: "Приложения",
     href: '/app/',
     children: [
-      { label: 'All Apps', href: '/app/' },
-      { label: 'KVM Control', href: '/kvm/' },
+      { label: "Все приложения", href: '/app/' },
+      { label: "KVM-управление", href: '/kvm/' },
       { label: 'KeyCmd', href: '/keycmd/' },
     ],
   },
-  { label: 'Media', href: '/videos/' },
-  { label: 'About', href: '/about/' },
-  { label: 'Docs', href: docsPath(), external: true },
-  { label: 'News', href: newsPath(), external: true },
-  { label: 'Shop', href: siteConfig.links.shop, external: true },
+  { label: "Медиа", href: '/videos/' },
+  { label: "О нас", href: '/about/' },
+  { label: "Документация", href: docsPath(), external: true },
+  { label: "Новости", href: newsPath(), external: true },
+  { label: "Магазин", href: siteConfig.links.shop, external: true },
 ];
