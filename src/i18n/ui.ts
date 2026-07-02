@@ -96,7 +96,8 @@ export const ui: MarketingUi = {
     "newsletterFootnote": "Отписка в любое время.",
     "copyright": "Openterface. KVM-over-USB с открытым исходным кодом.",
     "privacy": "Конфиденциальность",
-    "terms": "Условия"
+    "terms": "Условия",
+    "newsletterLink": "Newsletter"
   },
   "productLanding": {
     "downloadApp": "Скачать приложение",
@@ -113,5 +114,17 @@ export const ui: MarketingUi = {
     "documentation": "Документация",
     "ctaTitle": "Готовы начать?",
     "ctaSubtitle": "Закажите оборудование и скачайте приложение Openterface для вашей платформы."
+  },
+  "productSubscribe": {
+    "kicker": "Stay in the loop",
+    "heading": "Get {product} launch & firmware updates",
+    "description": "Be first to know about pre-orders, firmware releases, and setup tips for this product — at most one email per month.",
+    "benefitCrowdfunding": "Early access to crowdfunding and pre-order windows",
+    "benefitGuides": "Setup guides and app release notes",
+    "benefitUnsubscribe": "Unsubscribe anytime with one click",
+    "submitLabel": "Subscribe for updates",
+    "namePlaceholder": "Name (optional)",
+    "emailPlaceholder": "Email address *",
+    "footnote": "At most one email per month. Unsubscribe anytime."
   }
 };
