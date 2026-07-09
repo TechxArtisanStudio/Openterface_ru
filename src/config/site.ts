@@ -20,6 +20,7 @@ export const siteConfig = {
     appOverview: 'https://docs.openterface.com/ru/app/kvm/',
     subscribe: 'https://subscribe.openterface.com/api/subscribe/',
     news: 'https://news.openterface.com',
+    forum: 'https://forum.openterface.com/',
   },
   analytics: {
     enabled: import.meta.env.PROD,
