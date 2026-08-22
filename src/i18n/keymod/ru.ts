@@ -572,7 +572,22 @@ export const ru: KeymodLandingStrings = {
       cta: "Знакомьтесь с KeyCmd",
       mediaLabel: "Экран приветствия KeyCmd, выбор режима управления",
     },
-    crowdSupplyCampaign: {
+    crowdSupplyStats: {
+    eyebrow: 'Campaign progress',
+    title: 'Live on Crowd Supply',
+    ofGoal: 'of {goal} goal',
+    funded: 'Funded',
+    overFunded: 'Stretch goal unlocked!',
+    backers: 'backers',
+    daysLeft: 'days left',
+    updates: 'updates',
+    cta: 'Back the campaign',
+    lastUpdated: 'Updated',
+    updatedJustNow: 'just now',
+    updatedYesterday: 'yesterday',
+    fallbackText: 'Campaign is live on Crowd Supply.',
+  },
+  crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
       title: "Live на Crowd Supply",
       body: "Поддержите KeyMod Mini и Plus на Crowd Supply. Карманные USB-мосты, превращающие телефон в беспроводную консоль. Кампания активна.",
