@@ -9,7 +9,7 @@ export const ru: KeymodLandingStrings = {
     },
     nav: {
       docs: "Документация",
-      preLaunchCta: "Предзапуск",
+      preLaunchCta: "Поддержать на Crowd Supply",
     },
     povTabs: {
       keyboard: "Клавиатура",
@@ -28,7 +28,7 @@ export const ru: KeymodLandingStrings = {
       equationEquals: "=",
       lead: "Подключите к целевому устройству. Управление по BLE, без драйверов, поддержка BIOS. Сервер, ПК или консоль. Любой USB-порт.",
       docsCta: "Документация",
-      preLaunchCta: "Предзапуск",
+      preLaunchCta: "Поддержать на Crowd Supply",
     },
     whatItIs: {
       eyebrow: "Что это",
@@ -49,7 +49,7 @@ export const ru: KeymodLandingStrings = {
       eyebrow: "Выберите тип порта",
       title: "Mini vs Plus",
       stackLine: "То же приложение KeyCmd. Разные донглы для портов вашего компьютера.",
-      crowdSupplyCta: "Предзапуск на Crowd Supply",
+      crowdSupplyCta: "Live на Crowd Supply",
       mini: {
         name: "KeyMod Mini",
         port: "USB-C штекер → целевое устройство",
@@ -127,10 +127,10 @@ export const ru: KeymodLandingStrings = {
         mediaLabel: "Вид от первого лица: гибридная раскладка KM Pro (заглушка)",
       },
       proTerminal: {
-        badge: "Терминал · Превью",
+        badge: "Терминал",
         title: "SSH с вашего телефона",
-        lead: "USB по кабелю. Bluetooth у стойки. Превью-демо уже доступны в KeyCmd.",
-        body: "Выделенный режим терминала в KeyCmd: SSH через USB ECM (Plus) или BLE-Eth (Mini). Полноценное подключение в продакшене выйдет после второго этапа прошивки KeyMod.",
+        lead: "Открывайте SSH-сессии прямо из KeyCmd. USB при проводном подключении. Bluetooth у стойки.",
+        body: "Режим Терминал в KeyCmd: SSH через USB ECM (Plus) или BLE-Eth (Mini). Работает с целями macOS и Linux уже сегодня.",
         mediaLabel: "SSH-сессия в терминале (передача по USB, пересъемка)",
       },
       composeSend: {
@@ -262,19 +262,19 @@ export const ru: KeymodLandingStrings = {
           ],
         },
         terminal: {
-          badge: "Терминал · Превью",
+          badge: "Терминал",
           title: "SSH с вашего телефона",
           body: "Специальный режим Терминал запускает SSH через мост KeyMod. Выберите USB для скорости непосредственно у машины или Bluetooth, если вы находитесь в другом конце комнаты.",
-          experimentalHint: "Функция в стадии превью. Живой SSH через оборудование KeyMod будет доступен после выхода прошивки Phase 2.",
+          experimentalHint: "",
           demo: {
             interactiveDemoLabel: "Интерактивное демо",
-            title: "Превью терминала",
+            title: "Демо терминала",
             summary: "Попробуйте воспроизведение готовой SSH-сессии. Оборудование не требуется.",
             statusDisconnected: "Отключено",
             statusConnecting: "Подключение…",
             statusConnected: "Подключено",
-            demoBleLabel: "Превью демо (Bluetooth)",
-            demoUsbLabel: "Превью демо (USB)",
+            demoBleLabel: "Демо (Bluetooth)",
+            demoUsbLabel: "Демо (USB)",
             transportBle: "BLE",
             transportUsb: "USB",
             uiFidelityNote: "Приблизительный интерфейс. Актуальное приложение смотрите в KeyCmd на вашем телефоне.",
@@ -288,9 +288,9 @@ export const ru: KeymodLandingStrings = {
           },
           ble: {
             label: "BLE-Eth · KeyMod Mini",
-            body: "Беспроводной SSH, когда Mini находится на целевой машине. Рекомендуется компактная геометрия терминала. Превью-демо уже доступно в KeyCmd.",
+            body: "Беспроводной SSH, когда Mini находится на целевой машине. Рекомендуется компактная геометрия терминала.",
           },
-          notice: "KeyCmd сегодня поставляется с интерфейсом Терминала и стеком транспорта, а также превью-демо (USB и Bluetooth). Живой SSH через оборудование KeyMod будет доступен после утверждения прошивки Phase 2.",
+          notice: "Режим Терминал уже доступен в KeyCmd. Открывайте SSH-сессии через мост KeyMod на целях macOS и Linux. Поддержка целей Windows через RNDIS находится в разработке.",
         },
       },
       gameZone: {
@@ -471,10 +471,10 @@ export const ru: KeymodLandingStrings = {
     productJourney: {
       eyebrow: "Путь продукта",
       title: "От идеи до вашего рабочего стола",
-      subtitle: "Семь этапов пройдено. Предстартовая валидация в процессе. Следующие шаги — краудфандинг и исполнение заказов.",
+      subtitle: "Восемь этапов завершено. Ограниченные инженерные образцы распределены. Краудфандинг запущен на Crowd Supply.",
       scrollHint: "← Свайпните к предыдущим этапам",
       nowLabel: "Сейчас",
-      nowSublabel: "Предстартовый этап · финальная валидация аппаратной части и прошивки",
+      nowSublabel: "Краудфандинг запущен на Crowd Supply",
       milestones: [
         {
           id: "concept",
@@ -491,8 +491,8 @@ export const ru: KeymodLandingStrings = {
         {
           id: "cs-prelaunch",
           status: "done",
-          title: "Предзапуск на Crowd Supply",
-          lead: "Страница кампании активна. Следите за новостями, чтобы не пропустить день запуска.",
+          title: "Кампания Crowd Supply запущена",
+          lead: "Кампания запущена. Поддержите KeyMod, чтобы обеспечить свой.",
           href: keymodLinks.crowdSupply,
         },
         {
@@ -521,19 +521,16 @@ export const ru: KeymodLandingStrings = {
         },
         {
           id: "beta-2",
-          status: "upcoming",
-          variant: "beta",
-          badge: "Бета-тест · Раунд 2",
-          title: "Следующие приглашения на бета-тест",
-          lead: "Расширенное закрытое бета-тестирование обновленной прошивки и аппаратной части перед краудфандингом.",
-          timingLabel: "Перед запуском",
-          href: "#updates",
+          status: "done",
+          title: "Инженерные образцы распределены",
+          lead: "Ограниченные инженерные блоки распределены среди ранних сторонников для проверки в реальных условиях.",
         },
         {
           id: "crowdfunding",
-          status: "upcoming",
-          title: "Открытие краудфандинга",
-          timingLabel: "~середина июля 2026",
+          status: "done",
+          title: "Краудфандинг запущен",
+          timingLabel: "Август 2026",
+          href: keymodLinks.crowdSupply,
         },
         {
           id: "campaign",
@@ -577,15 +574,15 @@ export const ru: KeymodLandingStrings = {
     },
     crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
-      title: "Предзапуск на Crowd Supply",
-      body: "Поддержите KeyMod Mini и Plus на Crowd Supply — карманные USB-мосты, превращающие ваш смартфон в беспроводную консоль. Поддержите нас, чтобы воплотить проект в жизнь!",
-      cta: "Предзапуск",
+      title: "Live на Crowd Supply",
+      body: "Поддержите KeyMod Mini и Plus на Crowd Supply. Карманные USB-мосты, превращающие телефон в беспроводную консоль. Кампания активна.",
+      cta: "Поддержать кампанию",
     },
     crowdSupplySupport: {
       eyebrow: "Поддержите проект",
       title: "Помогите нам выпустить новые решения",
-      body: "Подпишитесь на KeyMod на Crowd Supply и поддержите кампанию, как только она откроется. Экспериментальные режимы, такие как Agent, выходят быстрее, когда больше энтузиастов поддерживают проект — каждый спонсор помогает воплотить дорожную карту развития прошивки в реальность.",
-      cta: "Подписаться на Crowd Supply",
+      body: "KeyMod запущен на Crowd Supply. Поддержите кампанию и помогите нам построить дорожную карту прошивки. Экспериментальные режимы, такие как Agent, выходят быстрее, когда больше мейкеров поддерживают проект.",
+      cta: "Поддержать на Crowd Supply",
     },
     crowdSupplyOpensource: {
       eyebrow: "Открытость как принцип",
@@ -608,7 +605,7 @@ export const ru: KeymodLandingStrings = {
       title: "Получайте новости о запуске KeyMod",
       description: "Запуски продуктов, новые прошивки и руководства по настройке. Не более одного письма в месяц. Без спама.",
       benefits: [
-        "Ранний доступ к краудфандингу и предзаказам",
+        "Прямой доступ к кампании Crowd Supply",
         "Инструкции по настройке и примечания к релизам KeyCmd",
         "Отписка в один клик в любое время",
       ],
